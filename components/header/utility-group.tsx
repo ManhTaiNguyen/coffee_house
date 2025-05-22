@@ -1,0 +1,10 @@
+import React from 'react'
+import Cart from './Cart';
+import SearchBox from './search-box';
+
+export default function UtilityGroup() {
+  return <div className="flex gap-4 items-center">
+    < SearchBox />
+    < Cart />
+  </div>;
+}
